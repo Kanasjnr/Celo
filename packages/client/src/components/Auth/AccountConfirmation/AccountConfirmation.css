@@ -1,0 +1,88 @@
+/* AccountConfirmation.css */
+.confirmation-container {
+    background-color: #ebf5fe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  .check-button {
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 20px; /* Adjust as needed */
+    cursor: pointer;
+  }
+  
+ 
+  
+  .confirmation-text {
+    font-size: 3xl; /* Adjust sizes as needed */
+    font-weight: 800;
+    margin-top: 5px; /* Adjust as needed */
+  }
+  
+  .content-box {
+    max-width: 80%;
+    background-color: white; /* useColorModeValue("white", "gray.800") */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* boxShadow={"2xl"} */
+    border-radius: 8px; /* rounded={"md"} */
+    overflow: hidden;
+    margin: auto;
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  .content-inner {
+    text-align: center;
+    color: black; /* useColorModeValue("gray.800", "white") */
+    padding: 16px;
+  }
+  
+  .email-info {
+    background-color: #ebf5fe; /* useColorModeValue("blue.50", "green.900") */
+    padding: 8px;
+    border-radius: 9999px; /* rounded={"full"} */
+    display: inline-block;
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  .email-text {
+    font-size: md; /* Adjust sizes as needed */
+    font-weight: 500; /* fontWeight={{ base: 300, md: 500 }} */
+    color: blue; /* color={"blue.500"} */
+    padding: 8px;
+  }
+  
+  .email-details {
+    background-color: #f9fafb; /* useColorModeValue("gray.50", "gray.900") */
+    text-align: center;
+    font-size: 1rem; /* Adjust sizes as needed */
+    padding: 16px;
+  }
+  
+  .email-details-text {
+    font-size: 1rem; /* fontSize={{ base: "md", md: "xl", lg: "2xl" }} */
+    color: black; /* color={"gray.800"} */
+  }
+  
+  .back-to-login-button {
+    width: 100%;
+    background-color: blue; /* bg={"blue.400"} */
+    color: white; /* color={"white"} */
+    border-radius: 8px; /* rounded={"md"} */
+    padding: 12px;
+    cursor: pointer;
+    margin-top: 20px; /* Adjust as needed */
+    box-shadow: 0 5px 20px rgba(72, 187, 120, 0.43); /* boxShadow={"0 5px 20px 0px rgb(72 187 120 / 43%)"} */
+  }
+  
+  .back-to-login-button:hover,
+  .back-to-login-button:focus {
+    background-color: #1e40af; /* _hover={{ bg: "blue.500" }}, _focus={{ bg: "blue.500" }} */
+  }
+  

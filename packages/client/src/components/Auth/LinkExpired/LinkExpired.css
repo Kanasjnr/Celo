@@ -1,0 +1,77 @@
+
+.link-expired-container {
+    background-color: #FFEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .close-icon {
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 24px;
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .message {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .details-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+  }
+  
+  .details-card {
+    max-width: 35rem;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .details-header {
+    background-color: #E2E8F0;
+    color: #2D3748;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 12px;
+  }
+  
+  .details-content {
+    padding: 20px;
+  }
+  
+  .details-content p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .login-button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #1E40AF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #2C5282;
+  }
+  
